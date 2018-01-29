@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAVIGATION>
+    <usermenu>
+    <CREATEPAGE>
+        <name> Seiten erstellen</name>
+        <link>../ajax/addPage.php</link>
+    </CREATEPAGE>
+    <EDITPAGE>
+        <name>Seiten bearbeiten</name>
+        <link>../inc/pageManagement.php</link>
+    </EDITPAGE>
+    <DATAMANAGER>
+        <name>Dateimanager</name>
+        <link>../inc/fileManager.php</link>
+    </DATAMANAGER>
+    </usermenu>
+    <adminmenu>
+        <USERCONFIG>
+            <name>Userverwaltung</name>
+            <link>../admin/userManagement.php</link>
+        </USERCONFIG>
+    </adminmenu>
+</NAVIGATION>
